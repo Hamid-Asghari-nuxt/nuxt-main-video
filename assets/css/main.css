@@ -1,0 +1,110 @@
+@font-face {
+  font-family: 'vazirmatn';
+  src: url('assets/fonts/vazir/Vazirmatn-FD-Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Vazir';
+  src: url("assets/fonts/Vazir/Vazirmatn-Regular.ttf");
+}
+@font-face {
+  font-family:"Vazirmatn";
+  src: local("Vazirmatn-Light"), local("vazir-light"),local("Vazirmatn-FD"),local('Vazirmatn-FD-Regular'),local('vazirmatn-FD-Regular'), local("Vazir Light"), url("../fonts/Vazir/Vazirmatn-FD-Regular.ttf") format("truetype"),
+  url("assets/fonts/Vazir/Vazirmatn-FD-Regular.woff2") format("woff2");
+}
+
+body {
+  background-color: #f5f5f5;
+  color: rgba(0,0,0,0.8);
+}
+.dark body {
+  background-color: #091a28;
+  color: #ebf4f1;
+}
+.sepia-mode body {
+  background-color: #f1e7d0;
+  color: #433422;
+}
+:root {
+  --primary-color: #2bce56;
+  --secound-color : #e7a000;
+  --secound-color-rgba:rgba(231, 160, 0, 1);
+  --blueone-color: #1eB3f0 ;
+  --bluetwo-color:#0D47A1 ;
+  --white-color: #fff;
+  --dark-color: #151616;
+  --primary-font:"IRANSans";
+  --secound-font: "Vazirmatn";
+  --text-color-p:#9c9c9c;
+  --body-color:#f5f5f5;
+  --color-primary-default: #00bda4;
+  --color-primary-default-o80: rgba(0,189,164,.8);
+  --color-primary-default-o30: rgba(0,189,164,.3);
+  --color-primary-default-o10: rgba(0,189,164,.1);
+  --color-primary-hover: #009480;
+  --color-primary-light1: #caf1ec;
+  --color-primary-light2: #e6f9f7;
+  --color-primary-light3: #f7fdfc;
+  --color-primary-dark-font: #00241f;
+  --color-primary-dark-font-o50: rgba(0,36,31,.5);
+  --color-primary-dark-font-o40: rgba(0,36,31,.4);
+  --color-primary-dark-font-o30: rgba(0,36,31,.3);
+  --color-white: #fff;
+  --color-white-o80: hsla(0,0%,100%,.8);
+  --color-white-o0: hsla(0,0%,100%,0);
+  --color-white-shade-1: #f5f5f5;
+  --color-white-shade-1-o0: hsla(0,0%,96%,0);
+  --color-white-shade-2: #d6d6d6;
+  --color-white-shade-3: #e0e0e0;
+  --color-white-shade-4: #ebebeb;
+  --color-white-shade-5: #fafafa;
+  --color-white-shade-6: #ccc;
+  --color-gray-tint-1: #b5b5b5;
+  --color-gray-tint-1-o10: hsla(0,0%,71%,.1);
+  --color-gray: #bfbfbf;
+  --color-gray-shade-1: #9c9c9c;
+  --color-gray-shade-2: #757575;
+  --color-gray-shade-2-o80: hsla(0,0%,46%,.8);
+  --color-gray-shade-2-o50: hsla(0,0%,46%,.5);
+  --color-black: #000;
+  --color-black-o95: rgba(0,0,0,.95);
+  --color-black-o85: rgba(0,0,0,.85);
+  --color-black-o80: rgba(0,0,0,.8);
+  --color-black-o70: rgba(0,0,0,.7);
+  --color-black-o50: rgba(0,0,0,.5);
+  --color-black-o40: rgba(0,0,0,.4);
+  --color-black-o30: rgba(0,0,0,.3);
+  --color-black-o25: rgba(0,0,0,.25);
+  --color-black-o20: rgba(0,0,0,.2);
+  --color-black-o15: rgba(0,0,0,.15);
+  --color-black-o10: rgba(0,0,0,.1);
+  --color-black-o8: rgba(0,0,0,.08);
+  --color-black-o6: rgba(0,0,0,.06);
+  --color-black-tint-1: #333;
+  --color-black-tint-2: #545454;
+  --color-black-tint-3: #1a1a1a;
+  --color-red-1: #e71336;
+  --color-red-1-o5: rgba(231,19,54,.05);
+  --color-gold: #f29f21;
+  --color-gold-o10: rgba(242,159,33,.1);
+  --color-gold-o50: rgba(242,159,33,.5);
+  --color-orange: #ff9466;
+  --color-orange-o10: rgba(255,148,102,.1);
+  --color-orange-o50: rgba(255,148,102,.5);
+  --color-gold-tint-1: #fff5e6;
+  --color-green-1: #00a34c;
+  --color-violet-1: #7f00e0;
+  --color-violet-1-o10: rgba(127,0,224,.1);
+  --color-bronze-1: #e76e55;
+  --color-telegram-blue: #0398e2;
+  --color-whatsapp-green: #1ad540;
+  --color-twitter-blue: #1ca0f2;
+  --color-badge-bg-white: #d4f2f0;
+  --color-badge-bg-white-o30: rgba(212,242,240,.3);
+  --color-badge-bg-silver: #f0f0f0;
+  /*--screen-full-height: var(--app-height,100vh);*/
+  --color-red-1-foreground: var(--color-white);
+  --color-gold-foreground: var(--color-white);
+}
